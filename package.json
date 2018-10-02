@@ -1,0 +1,27 @@
+{
+  "name": "sheepjs",
+  "version": "0.0.1",
+  "description": "Sheepshead in JavaScript",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@tensorflow/tfjs": "^0.13.1",
+    "@types/chai": "^4.1.6",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.11.3",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "parcel-bundler": "^1.10.1",
+    "ts-mocha": "^2.0.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
+  },
+  "scripts": {
+    "test": "ts-mocha tests/*.ts",
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "Harald Fernengel <harryf@gmx.com>",
+  "license": "BSD-3-Clause"
+}
