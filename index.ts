@@ -6,7 +6,7 @@ import { Card } from "./src/card";
 import { Hand } from "./src/hand";
 import { CardImages } from "./src/cardimages";
 
-declare const lang: string;
+const lang = (window && window.navigator.languages.includes("de")) ? "de" : "C";
 
 const players: Players = [
     new Player(PlayerNumber.First),

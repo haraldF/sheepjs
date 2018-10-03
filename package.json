@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "Sheepshead in JavaScript",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@tensorflow/tfjs": "^0.13.1",
     "@types/chai": "^4.1.6",
