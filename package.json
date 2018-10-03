@@ -19,7 +19,8 @@
   },
   "scripts": {
     "test": "ts-mocha tests/*.ts",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "deploy": "parcel build -d docs --public-url . index.html"
   },
   "keywords": [],
   "author": "Harald Fernengel <harryf@gmx.com>",
